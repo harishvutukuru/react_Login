@@ -1,22 +1,6 @@
-import React from 'react'
-import { useRef,usestat,useEffect } from 'react';
-import './applycss.css'
+<table className='tbl_login'>
   
-const onSubmitclick =    (e) =>{
-    debugger;
-    e.preventDefault()
-}
-const Login = () => {
-  return (
-   
-<section>
-<h1>
-    Login
- </h1> 
-   <div className='div_main'>
-   <div className='div_Sub'>
-    <table>
-    <tbody>
+<tbody>
 <tr>
      <td>
      <label htmlFor='txt_userName'>username: </label>
@@ -44,20 +28,4 @@ const Login = () => {
      </td>
  </tr>
  </tbody>
-   
-    </table>
-   
-   </div>
-  
-   </div>
-</section>
-
-
-       
-     
-       
-     
-  )
-}
-
-export default Login
+ </table>
