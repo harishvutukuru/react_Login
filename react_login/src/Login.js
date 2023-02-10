@@ -14,6 +14,11 @@ const Login = () => {
     Login
  </h1> 
    <div className='div_main'>
+    
+    <p style={{marginLeft:'5%'}}>
+      Welcome,
+               please login...
+    </p>
    <div className='div_Sub'>
     <table>
     <tbody>
@@ -40,7 +45,7 @@ const Login = () => {
  </tr>
  <tr>
   <td>
-   <a href='./Registration.js'>Register</a>
+   <a href='./Registration'>Register</a>
   </td>
  </tr>
  <tr>
