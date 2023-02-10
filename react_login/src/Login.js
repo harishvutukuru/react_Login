@@ -39,6 +39,11 @@ const Login = () => {
      </td>
  </tr>
  <tr>
+  <td>
+   <a href='./Registration.js'>Register</a>
+  </td>
+ </tr>
+ <tr>
      <td>
          <button id='btn_Submit' onClick={(e) => onSubmitclick(e)}> submit</button>
      </td>
