@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
-
+import './applycss.css'
 function Registration() {
     return(
       <div className="form">
+        <a href='./Login'>Login</a>
           <div className="form-body">
               <div className="username">
                   <label className="form__label" for="firstName">First Name </label>
@@ -24,10 +25,11 @@ function Registration() {
                   <label className="form__label" for="confirmPassword">Confirm Password </label>
                   <input className="form__input" type="password" id="confirmPassword" placeholder="Confirm Password"/>
               </div>
-          </div>
-          <div class="footer">
+              <div class="footer">
               <button type="submit" class="btn">Register</button>
           </div>
+          </div>
+        
       </div>      
     )       
 }

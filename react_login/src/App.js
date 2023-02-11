@@ -11,6 +11,7 @@ function App() {
       <Routes>
         <Route path='registration' element={<Registration />}></Route>
         <Route path='/' element={<Login />}></Route>
+        <Route path='/Login' element={<Login />}></Route>
       </Routes>
    {/* <Login/> */}
     </div>
